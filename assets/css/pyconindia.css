@@ -467,8 +467,10 @@ div.code > div {
 div.code td.linenos pre {
   background-color: #3c4030;
 }
+.hidden {
+    display: none;
+}
 .logo {
-    overflow: hidden;
     min-height: 210px;
     text-align: center;
 }
@@ -504,4 +506,19 @@ div.code td.linenos pre {
     border-bottom-right-radius: 4px;
     margin-bottom: 2.5em;
     padding: 1em;
+}
+.sponsor-info {
+    width: 500px;
+    padding: 10px 25px;
+}
+.pan-head {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.pan-head a {
+    text-decoration: none;
+}
+.pan-head a:clicked {
+    color: #5E8000 !important;
 }
