@@ -469,11 +469,8 @@ div.code td.linenos pre {
 }
 .logo {
     overflow: hidden;
-    min-height: 360px;
-}
-.logo img {
-    float: left;
-    vertical-align: middle;
+    min-height: 210px;
+    text-align: center;
 }
 .sponsor-platinum:after {
     content: "Platinum";
