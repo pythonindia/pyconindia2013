@@ -93,16 +93,7 @@
 
 <body>
   <div id="fb-root"></div>
-      <script>(function(d, s, id) {
-	var js, fjs = d.getElementsByTagName(s)[0];
-	if (d.getElementById(id)) return;
-	js = d.createElement(s); js.id = id;
-	js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=375075999263521";
-	fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));
-      </script>
-
-    <header class="header">
+  <header class="header">
         <div class="container">
             <div class="row">
                 <div class="span6">
@@ -142,8 +133,12 @@
 	    </div>  <!-- .row -->
 
 	    <div class="row">
-	      <div class="span6 offset3">
+	      <div class="span6">
 		<div class="fb-comments" data-href="https://www.facebook.com/PyConIndia" data-width="470" data-num-posts="10"></div>
+	      </div>
+
+	      <div class="span6">
+		<div class="g-plus" data-action="share" data-height="24"></div>
 	      </div>
 	    </div>  <!-- .row -->
 	  </div>  <!-- .container -->
@@ -270,5 +265,22 @@
       <script type="text/javascript" src="assets/js/jquery.fancybox-1.3.4.pack.js"></script>
     <script>window.jQuery || document.write('<script type="text/javascript" src="assets/js/jquery.min.js"><\/script>')</script>
       <script type="text/javascript" src="assets/js/pyconindia.js"></script>
+
+      <script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=375075999263521";
+	fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+      </script>
+
+      <script type="text/javascript">
+	(function() {
+	var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+	po.src = 'https://apis.google.com/js/plusone.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+	})();
+</script>
 </body>
 </html>
