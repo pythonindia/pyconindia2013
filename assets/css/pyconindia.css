@@ -483,6 +483,9 @@ div.code td.linenos pre {
 .sponsor-silver:after {
     content: "Silver";
 }
+#img_vaultize {
+    margin-top: 36px;
+}
 .sponsor-partner:after {
     content: "Partner";
 }
@@ -556,8 +559,4 @@ div.code td.linenos pre {
 
 .logo {
     min-height: 0px;
-}
-
-.sponsor-gold img {
-    max-height: 150px;
 }
