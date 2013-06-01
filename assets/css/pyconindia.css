@@ -561,13 +561,13 @@ div.code td.linenos pre {
 }
 .social {
     float: left;
-    margin: 0 15px;
+    margin-left: 5px;
 }
 #___plus_0 {
     /* Force width of Google+ share button */
     width: 200px !important; 
     /* Better vertical alignment */
-    margin: 4px 0 0 0 !important; 
+    margin: 4px 20px 0 0 !important; 
 }
 .fb-like {
     /* Better vertical alignment */
