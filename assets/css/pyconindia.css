@@ -561,7 +561,7 @@ div.code td.linenos pre {
 }
 .social {
     float: left;
-    margin-right: 25px;
+    margin-left: 25px;
 }
 #___plus_0 {
     /* Force width of Google+ share button */
@@ -571,7 +571,8 @@ div.code td.linenos pre {
 }
 .fb-like {
     /* Better vertical alignment */
-    margin: 3px 0 0 45px;
+    margin: 3px 40px 0 45px;
+    float: left;
 }
 .share-bar {
     border-bottom: 1px solid #E6E6E6;
