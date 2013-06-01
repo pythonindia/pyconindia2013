@@ -562,3 +562,7 @@ div.code td.linenos pre {
 .social {
     float: right;
 }
+/* Force width of Google+ share button */
+#___plus_0 {
+    width: 200px !important; 
+}
