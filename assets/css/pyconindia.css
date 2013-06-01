@@ -483,6 +483,9 @@ div.code td.linenos pre {
 .sponsor-silver:after {
     content: "Silver";
 }
+#img_vaultize {
+    margin-top: 36px;
+}
 .sponsor-partner:after {
     content: "Partner";
 }
@@ -553,11 +556,26 @@ div.code td.linenos pre {
   background-repeat:repeat no-repeat;
   border-color:rgba(0, 0, 0, 0.0980392) rgba(0, 0, 0, 0.0980392) rgba(0, 0, 0, 0.247059);
 }
-
 .logo {
     min-height: 0px;
 }
-
-.sponsor-gold img {
-    max-height: 150px;
+.social {
+    float: left;
+    margin-left: 25px;
+}
+#___plus_0 {
+    /* Force width of Google+ share button */
+    width: 200px !important; 
+    /* Better vertical alignment */
+    margin: 4px 20px 0 0 !important; 
+}
+.fb-like {
+    /* Better vertical alignment */
+    margin: 3px 40px 0 45px;
+    float: left;
+}
+.share-bar {
+    border-bottom: 1px solid #E6E6E6;
+    margin: 15px 0;
+    padding: 5px 0;
 }
